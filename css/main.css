@@ -1,0 +1,31 @@
+.tab-pane {
+    overflow: scroll;
+}
+
+.dataTablesTitle {
+    float: left;
+    position: absolute;
+    display: inline-block;
+}
+
+.dt-buttons {
+    left: 150px;
+    position: absolute;
+}
+
+.btn-primary {
+    float: left;
+    margin: 2px;
+}
+
+.btn-sessions {
+    margin-top: -30px;
+    left: 150px;
+    background-color: #428bca;
+    border-color: #357ebd;
+    position: relative;
+}
+
+a {
+    color: #3FA9F5;
+}

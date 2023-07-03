@@ -1,6 +1,18 @@
 This app is written for the World Human Powered Speed Challenge (WHPSC).
 
 This event is held each year in Battle Mountain Nevada. The contestants race 
-streamlined bicycles to high speeds over a 200m time trap. 
+streamlined bicycles to high speeds over a 200m time trap. This app is designed
+to manage and register the times for the sessions during the week. It can be
+used completely off-line so there is no dependency on network connections. 
+
+The results can be exported for sharing with others. 
+
+Main functions:
+- manage riders, teams and bicycles
+- manage sessions and runs
+- record times during sessions
+- generate startersheets 
+- show results
+- caculate and show seeding order
 
 Arnold Ligtvoet

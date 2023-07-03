@@ -29,3 +29,68 @@
 a {
     color: #3FA9F5;
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 16px;
+    }
+
+    #logo {
+        width:48px;
+    }
+
+    .dt-buttons {
+        left: 0px;
+        position: relative;
+    }
+
+    .btn {
+        font-size: 10px;
+    }
+
+    #riderTable_filter input {
+        width: 100px;
+    }
+
+    #resultsTable_filter input {
+        width: 100px;
+    }
+
+    .dataTables_wrapper.no-footer .dt-buttons {
+        padding-left: 40px;
+    }
+
+    #sessionsMaintTable_wrapper .dt-buttons {
+        padding-left: 180px;
+        padding-bottom: 40px;
+    }
+
+    #databasesTable_wrapper .dt-buttons {
+        padding-left: 230px;
+        padding-bottom: 40px;
+    }
+
+    #categoriesTable_wrapper .dt-buttons {
+        padding-left: 180px;
+        padding-bottom: 40px;
+    }
+
+    #heatsMaintTable_wrapper .dt-buttons {
+        padding-left: 180px;
+        padding-bottom: 40px;
+    }
+
+    #settingsTable_wrapper .dt-buttons {
+        padding-left: 280px;
+        padding-bottom: 40px;
+    }
+
+    #riderTable_wrapper .dt-buttons {
+        padding-left: 0px;
+    }
+
+    #resultsTable_wrapper .dt-buttons {
+        padding-left: 0px;
+    }
+
+}
